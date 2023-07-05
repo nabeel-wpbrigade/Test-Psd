@@ -1,7 +1,15 @@
 @import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@200;300;400;500;600;700;800&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Caveat+Brush&family=Poppins:wght@300;400;500;600;700&family=Questrial&display=swap');
+/* font-family: 'Poppins', sans-serif; */
 .container{
     max-width: 1700px !important;
+}
+
+.mova-container{
+    max-width: 1460px;
+    margin: 0 auto;
+    padding-left: 15px;
+    padding-right: 15px;
 }
 
 body .btn-light{
@@ -12,7 +20,7 @@ body .btn-light{
     color: #000929;
     background-color: transparent;
     padding: 18px 20px 18px;
-    border-radius: 8px;
+    border-radius: 50px;
     display: inline-block;
     border: 1px solid #000929;
     transition: all 0.3s;
@@ -3715,6 +3723,7 @@ section a{
     align-items: center;
 }
 
+
 .cta-section .agent-img{
     max-width: 360px;
 }
@@ -5991,7 +6000,708 @@ header.seller-header.sticky{
     background-color: #ffffff !important;
 }
 
+/** Seller landing**/
+
+header.main-header .header-right .nav-menu li:first-child{
+    margin-right: 10px;
+}
+
+.seller-list-section{
+    background-image: url('../images/img/mova-mono.svg');
+    background-repeat: no-repeat;
+    background-position: top 35% right -287px;
+    background-size: 55%;
+}
+
+.seller-list-section .mova-container{
+    max-width: 1660px;
+    padding: 150px 115px 100px 115px;
+}
+
+.seller-list-section .experience{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.seller-list-section .experience .exp-content{
+    width: 51%;
+    padding: 35px 20px 20px 0px;
+}
+
+.seller-list-section .experience .exp-content .multi-heading{
+    line-height: 150px;
+}
+
+.seller-list-section .experience .exp-content .multi-heading .bold{
+    margin-left: 178px;
+}
+
+.seller-list-section .experience .exp-content .multi-heading .medium,
+.seller-list-section .experience .exp-content .multi-heading .light{
+    margin-left: 185px;
+}
+
+.seller-list-section .experience .exp-img{
+    width: 49%;
+    height: 539px;
+    background: url('../images/img/seller-hero-img.jpg') no-repeat center;
+    background-size: cover;
+    border-radius: 10px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-start;
+}
+
+.seller-list-section .experience .exp-img form{
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0px 0px 8px 4px rgba(0, 0, 0, 0.05);
+    border: 2px solid #2ed573;
+    padding: 33px 44px 28px;
+    display: flex;
+    flex-direction: column;
+    max-width: 483px;
+    margin-top: 247px;
+    margin-right: -100px;
+    z-index: 1;
+}
+
+.seller-list-section .experience .exp-img form .form-title{
+    color: #2ed573;
+    font-size: 30px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    letter-spacing: 0;
+    text-transform: none;
+    margin-bottom: 19px;
+}
+
+.seller-list-section .experience .exp-img form input[type='text'],
+.seller-list-section .experience .exp-img form input[type='email'],
+.seller-list-section .experience .exp-img form input[type='tel'],
+.seller-list-section .experience .exp-img form select{
+    background: #F1F1F1;
+    border: none;
+    border-radius: 10px;
+    margin-bottom: 15px;
+    padding: 13px 30px;
+    color: #000;
+    font-size: 18px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    line-height: 29px;
+    width: 100%;
+}
+
+.seller-list-section .experience .exp-img form select{
+    appearance: none;
+    background-color: #F1F1F1 !important;
+    background: url(../images/img/arrow-down.png) no-repeat;
+    background-position: top 50% right 28px;
+    background-size: 14px;
+}
+
+.seller-list-section .experience .exp-img form select:focus-visible{
+    outline: none;
+}
+
+.seller-list-section .experience .exp-img form input[type='submit']{
+    border-radius: 50px;
+    font-size: 18px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    margin-top: 0;
+}
+
+.seller-list-section .experience .exp-img form input::placeholder{
+    color: #000;
+}
+
+.seller-list-section .experience .hero-description{
+    width: 55%;
+    margin-top: 87px;
+}
+
+.seller-list-section .experience .btn{
+    border-radius: 50px;
+    margin-top: 34px;
+    text-transform: none;
+    padding: 10px 38px 10px;
+}
+
+.seller-list-section .experience .hero-description .des p{
+    font-family: 'Poppins', sans-serif;
+    color: #000;
+    font-size: 20px;
+    line-height: 40px;
+}
+
+.seller-list-section .experience .hero-description .des p > span{
+    font-weight: 700;
+    display: block;
+    margin-bottom: 40px;
+}
+
+.why-choose-mova .multi-heading{
+    text-align: center;
+}
+
+.multi-heading{
+    font-family: 'Poppins', sans-serif;
+    color: #000;
+    font-size: 150px;
+    line-height: 164px;
+    font-weight: 300;
+    letter-spacing: 0;
+    text-transform: none;
+    margin: 0;
+}
+
+.multi-heading span{
+    display: block;
+}
+
+.multi-heading .bold{
+    color: #2ED573;
+    font-weight: 700;
+    margin-left: 100px;
+}
+
+.multi-heading .light,
+.multi-heading .medium{
+    font-family: 'Poppins', sans-serif;
+    font-size: 40px;
+    line-height: 48px;
+    margin-left: 100px;
+}
+
+.multi-heading .medium{
+    font-weight: 700;
+}
+
+.why-choose-mova .mova-container{
+    padding-top: 47px;
+    padding-bottom: 100px;
+}
+
+.cm-cards-wrapper{
+    display: flex;
+    flex-wrap: wrap;
+    width: calc(100% + 20px);
+    margin: 76px -10px 0;
+}
+
+.cm-cards-wrapper .cm-card{
+    width: calc(33.33% - 20px);
+    margin: 0 10px 20px;
+    background-color: inherit;
+    box-shadow: 0px 0px 8px 4px rgba(0, 0, 0, 0.05);
+    border-radius: 10px;
+    padding: 40px 40px 24px;
+}
+
+.cm-cards-wrapper .cm-card:nth-child(5n+1),
+.cm-cards-wrapper .cm-card:nth-child(5n+2){
+    width: calc(50% - 20px);
+}
+
+.cm-card .card-img{
+    width: 64px;
+    height: 64px;
+    display: flex;
+    align-items: flex-end;
+}
+
+.cm-card .card-img img{
+    max-width: 100%;
+}
+
+.cm-card .card-title{
+    font-family: 'Poppins', sans-serif;
+    font-size: 30px;
+    line-height: 44px;
+    font-weight: 700;
+    color: #2ED573;
+    margin-top: 11px;
+    letter-spacing: 0;
+    text-transform: none;
+}
+
+.cm-card .card-des{
+    color: #000;
+    font-size: 18px;
+    font-family: 'Poppins', sans-serif;
+    line-height: 29px;
+    margin-top: 10px;
+}
+
+.list-property .multi-heading .bold{
+    margin-left: auto;
+    text-align: end;
+    display: block;
+    text-transform: none;
+}
+
+.list-property .mova-container{
+    padding-top: 50px;
+    padding-bottom: 150px;
+}
+
+.start-listing-section{
+    background: url(../images/img/listing-img.jpg) no-repeat center;
+    background-size: cover;
+    position: relative;
+}
+
+.start-listing-section::after{
+    content: '';
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    position: absolute;
+    background: linear-gradient(180deg, #000 0%, rgba(0, 0, 0, 0.00) 100%);
+}
+
+.start-listing-section .mova-container{
+    padding-top: 211px;
+    padding-bottom: 106px;
+}
+
+.start-listing-section .listing-content{
+    position: relative;
+    z-index: 2;
+}
+
+.start-listing-section .multi-heading{
+    color: #fff;
+    text-align: start;
+}
+
+.start-listing-section .listing-detail{
+    margin-top: 46px;
+}
+
+.start-listing-section .listing-detail .description{
+    max-width: 630px;
+    margin-left: auto;
+    margin-right: 200px;
+}
+
+.start-listing-section .listing-detail .description p{
+    color: #000;
+    font-size: 20px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    line-height: 40px;
+    color: #fff;
+}
+
+.start-listing-section .listing-detail .description .btn{
+    margin-top: 34px;
+    border-radius: 50px;
+    padding: 10px 38px 10px;
+    text-transform: none;
+}
+
+.start-listing-section .listing-detail .description .btn:hover{
+    color: #fff;
+    border-color: #fff;
+}
+
+/** For sale**/
+
+body.forsale,
+header.forsale-head{
+    background-color: #ECF4EF !important;
+}
+
+.forsale-chat-section{
+    background: url('../images/img/mova-mono.svg') no-repeat;
+    background-position: bottom -20% right -90%;
+    background-size: 70%;
+}
+
+.forsale-chat-section .container{
+    padding-top: 150px;
+    padding-bottom: 100px;
+    max-width: 1360px !important;
+}
+
+.forsale-chat-section .chat-heading{
+    text-align: center;
+}
+
+.forsale-chat-section .chat-heading h1{
+    color: #2B503A;
+    font-size: 64px;
+    font-family: 'Questrial', sans-serif;
+    font-weight: 400;
+    margin: 0;
+    text-transform: none;
+    letter-spacing: 0;
+}
+
+.forsale-chat-section .chat-heading h3{
+    color: #2B503A;
+    font-size: 28px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    margin-top: 5px;
+    letter-spacing: 0;
+}
+
+.forsale-chat-wrapper{
+    margin-top: 71px;
+    position: relative;
+}
+
+.forsale-chat-wrapper .ai-search{
+    position: absolute;
+    color: #2ED573;
+    font-size: 25px;
+    font-family: 'Caveat Brush', sans-serif;
+    font-weight: 400;
+    line-height: 24px; 
+    top: -90px;
+    left: -60px;
+    transform: rotate(-10deg);
+    width: 100px; 
+}
+
+.forsale-chat-wrapper .form-nav{
+    padding: 0 48px;
+    display: flex;
+    align-items: flex-end;
+}
+
+.forsale-chat-wrapper .form-nav a{
+    color: #000;
+    font-size: 16px;
+    font-family: 'Poppins', sans-serif;
+    background-color: #fff;
+    padding: 4px 30px;
+}
+
+.forsale-chat-wrapper .form-nav a:last-child{
+    border-top-right-radius: 5px;
+}
+
+.forsale-chat-wrapper .form-nav a:first-child{
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    font-size: 16px;
+    font-weight: 700;
+    padding: 9px 30px 7px;
+}
+
+.forsale-chat-wrapper .form-nav a.active{
+    background-color: #2ED573;
+    color: #FFF;
+}
+
+.forsale-chat-wrapper .search-wrapper .form-search{
+    display: none;
+}
+
+.forsale-chat-wrapper .search-wrapper .form-search.active{
+    display: block;
+}
+
+.forsale-chat-wrapper .search-wrapper .form-search .search-feild{
+    border-radius: 90px;
+    border: 1px solid #2ED573;
+    background: #FFF;
+    box-shadow: 0px 0px 24px 0px rgba(0, 0, 0, 0.25);
+    padding: 0 74px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.forsale-chat-wrapper .search-wrapper .form-search input[type='search']{
+    border: none;
+    width: 100%;
+    color: #000;
+    font-size: 25px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    padding: 35px 0 33px;
+    margin-left: 30px;
+}
+
+.forsale-chat-wrapper .search-wrapper .form-search .search-feild .search-wrap{
+    width: calc(100% - 30px);
+    display: flex;
+    align-items: center;
+}
+
+.forsale-chat-wrapper .search-wrapper .form-search .search-feild .search-wrap img{
+    max-width: 53px;
+}
+
+.forsale-chat-wrapper .search-wrapper .form-search input[type='search']::placeholder{
+    color: #000;
+}
+
+.forsale-chat-wrapper .search-wrapper .form-search input[type='submit']{
+    width: 30px;
+    height: 30px;
+    border: none;
+    background: url('../images/img/search-icon.svg') no-repeat center;
+    background-size: 30px;
+    font-size: 0;
+}
+
+.forsale-chat-wrapper .search-wrapper .chat-wrapper{
+    margin-top: 46px;
+    padding: 50px 50px 50px;
+    max-height: 600px;
+    overflow-y: auto;
+}
+
+.forsale-chat-wrapper .search-wrapper .chat-wrapper::-webkit-scrollbar{
+    width: 5px;
+    border-radius: 10px;
+}
+
+.forsale-chat-wrapper .search-wrapper .chat-wrapper::-webkit-scrollbar-thumb{
+    background: #A1A7A4;
+    border-radius: 10px;
+}
+
+.forsale-chat-wrapper .search-wrapper .chat-wrapper .your-msg{
+    display: flex;
+    align-items: center;
+    margin-bottom: 57px;
+}
+
+.forsale-chat-wrapper .search-wrapper .chat-wrapper p{
+    color: #686868;
+    font-size: 20px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 300;
+    background-color: #fff;
+    margin: 0;
+    box-shadow: 0px 0px 24px 0px rgba(0, 0, 0, 0.25);
+    padding: 13px 16px;
+}
+
+.forsale-chat-wrapper .search-wrapper .chat-wrapper p b{
+    font-weight: 700;
+}
+
+.forsale-chat-wrapper .search-wrapper .chat-wrapper .my-msg p{
+    margin-right: 20px;
+    border-radius: 20px 20px 0px 20px;
+}
+
+.forsale-chat-wrapper .search-wrapper .chat-wrapper .your-msg p{
+    margin-left: 20px;
+    border-radius: 20px 20px 20px 0px;
+}
+
+.forsale-chat-wrapper .search-wrapper .chat-wrapper .my-msg{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    flex-direction: row-reverse;
+    margin-bottom: 51px;
+}
+
+.forsale-chat-wrapper .search-wrapper .chat-wrapper .user-img{
+    border-radius: 50px;
+    min-width: 62px;
+    height: 62px;
+}
+
+.forsale-chat-wrapper .search-wrapper .chat-wrapper .user-img img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 50px;
+}
+
+/**corporate**/
+
+.corporate-hero {
+    background-position: top 70% right -285px;
+    background-size: 50%;
+}
+
+.corporate-hero .experience .exp-content{
+    width: 100%;
+    padding: 0;
+}
+
+.corporate-hero .experience .hero-description{
+    margin-top: 46px;
+    width: 55%;
+    margin-left: 70px;
+}
+
+.corporate-hero .experience .btn{
+    margin-top: 14px;
+}
+
+.journey-cards{
+    display: flex;
+    flex-wrap: wrap;
+    width: calc(100% + 28px);
+    margin: 67px -14px 0;
+}
+
+.journey-cards .journey-card{
+    width: calc(50% - 28px);
+    margin: 0 14px 28px;
+    padding: 35px 40px 30px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 8px 4px rgba(0, 0, 0, 0.15);
+}
+
+.journey-cards .journey-card h4{
+    color: #2ED573;
+    font-size: 30px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+}
+
+.journey-cards .journey-card p{
+    color: #000;
+    font-size: 18px;
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 29px;
+    margin-bottom: 0;
+    margin-top: 14px;
+}
+
+.award-section{
+    background-image: url(../images/img/shape-awards.svg);
+    background-position: top 35% right -152px;
+    background-size: 36%;
+}
+
+.award-section .mova-container{
+    max-width: 1465px;
+}
+
+.award-section .experience .exp-content .multi-heading .bold{
+    margin-left: 0 !important;
+}
+
+.award-section .mova-container {
+    padding: 150px 15px 100px 15px;
+}
+
+.award-section .experience .hero-description{
+    margin-left: 113px;
+    margin-top: 24px;
+}
+
+.our-background{
+    background-image: url(../images/img/schedule-bg.svg);
+    background-repeat: no-repeat;
+    background-position: top 35% right -287px;
+    background-size: 55%;
+}
+
+.our-background .mova-container{
+    padding-top: 180px;
+    padding-bottom: 100px;
+}
+
+.our-content{
+    display: flex;
+}
+
+.our-content .multi-heading{
+    text-align: end;
+    margin-right: -440px;
+    color: #fff;
+    line-height: 140px;
+}
+
+.our-content .multi-heading .bold {
+    margin-left: 119px;
+}
+
+.our-content .content-section{
+    width: 43%;
+    z-index: 1;
+    padding: 79px 45px 0 0;
+}
+
+.our-content .content-section p{
+    color: #000;
+    font-size: 20px;
+    font-family: Poppins;
+    font-weight: 400;
+    line-height: 40px;
+    margin-top: 55px;
+}
+
+.our-content .content-section p span{
+    display: block;
+    font-weight: 700;
+    margin-top: 40px;
+}
+
+.our-content .img-section{
+    width: 57%;
+    display: flex;
+    flex-direction: column;
+}
+
+.our-content .img-section .journ-1{
+    max-width: 700px;
+    width: 100%;
+    border-radius: 10px;
+    align-self: flex-end;
+    min-height: 530px;
+    object-fit: cover;
+}
+
+.our-content .img-section .journ-2{
+    max-width: 539px;
+    min-height: 454px;
+    object-fit: cover;
+    border-radius: 10px;
+    margin-top: -295px;
+}
+
 @media screen and (max-width:1500px){ 
+
+    .our-content .img-section .journ-1{
+        padding-left: 30px;
+    }
+
+    .forsale-chat-wrapper .ai-search{
+        top: -66px;
+        left: 0px;
+    }
+
+    .seller-list-section .mova-container{
+        max-width: 1660px;
+        padding: 150px 115px 100px 15px;
+    }
+
+    .seller-list-section .experience .exp-content .multi-heading {
+        font-size: 130px;
+        line-height: 120px;
+    }
+
+    .seller-list-section .experience .exp-content .multi-heading .bold{
+        margin-left: 100px;
+    }
+    
+    .seller-list-section .experience .exp-content .multi-heading .medium,
+    .seller-list-section .experience .exp-content .multi-heading .light{
+        margin-left: 105px;
+        font-size: 34px;
+        line-height: 40px;
+    }
 
     .overview-chart .statusbar-wrapper .status-bars li p span {
         display: none;
@@ -6379,6 +7089,56 @@ header.seller-header.sticky{
 }
 
 @media screen and (max-width:1199px){
+
+    .our-content .img-section .journ-1{
+        min-height: 476px;
+    }
+
+    .our-content .multi-heading {
+        line-height: 100px;
+    }
+
+    .seller-list-section .mova-container {
+        padding: 150px 70px 40px 15px;
+    }
+
+    .seller-list-section .experience .exp-content .multi-heading {
+        font-size: 100px;
+        line-height: 110px;
+    }
+
+    .seller-list-section .experience .exp-img{
+        height: 470px;
+    }
+
+    .seller-list-section .experience .exp-img form{
+        margin-right: -50px;
+        margin-top: 200px;
+    }
+
+    .seller-list-section .experience .exp-content .multi-heading .medium, .seller-list-section .experience .exp-content .multi-heading .light {
+        font-size: 26px;
+        line-height: 34px;
+    }
+
+    .seller-list-section .experience .hero-description{
+        width: 50%;
+    }
+
+    .multi-heading{
+        font-size: 100px;
+        line-height: 110px;
+    }
+
+    /* redesign*/
+
+    .cm-cards-wrapper .cm-card{
+        padding: 30px 30px 25px;
+    }
+
+    .start-listing-section .listing-detail .description{
+        margin-right: 0;
+    }
 
     .overview-chart .statusbar-wrapper .status-bars li .bar span{
         transform: rotate(90deg);
@@ -6952,6 +7712,105 @@ header.seller-header.sticky{
 
 @media screen and (max-width:1024px){
 
+    .our-background .mova-container {
+        padding-top: 100px;
+    }
+
+    .our-content{
+        flex-direction: column-reverse;
+    }
+
+    .our-content .img-section{
+        width: 100%;
+    }
+
+    .our-content .multi-heading{
+        margin-right: auto;
+        color: #000;
+    }
+
+    .our-content .multi-heading{
+        text-align: start;
+    }
+
+    .our-content .content-section{
+        width: 100%;
+    }
+
+    .seller-list-section .experience .hero-description{
+        margin-top: 15px !important;
+        margin-left: 90px;
+    }
+
+    .corporate-hero .mova-container{
+        padding: 150px 15px 40px 15px;
+    }
+
+    .corporate-hero  .experience .hero-description{
+        margin-top: 50px !important;
+        margin-left: 0;
+    }
+
+    .forsale-chat-wrapper .search-wrapper .form-search .search-feild{
+        padding: 0 40px;
+    }
+
+    .forsale-chat-wrapper .search-wrapper .form-search input[type='search']{
+        padding: 25px 0 23px;
+    }
+
+    .seller-list-section {
+        background-position: top 19% right -150px;
+    }
+
+    .seller-list-section .experience .exp-content{
+        width: 100%;
+    }
+
+    .seller-list-section .experience .exp-img{
+        width: 100%;
+    }
+
+    .seller-list-section .experience .hero-description {
+        width: 100%;
+        margin-top: 230px;
+    }
+
+    .seller-list-section .experience .exp-img form{
+        margin-top: 150px;
+    }
+
+    .seller-list-section .experience .exp-content .multi-heading {
+        line-height: 90px;
+    }
+
+    .list-property .mova-container {
+        padding-bottom: 50px;
+    }
+
+    .start-listing-section .mova-container{
+        padding-top: 100px;
+    }
+
+    .multi-heading {
+        font-size: 90px;
+        line-height: 100px;
+    }
+
+    .multi-heading .bold{
+        margin-left: auto;
+    }
+
+    /*redesign seller landing*/
+
+    .cm-cards-wrapper{
+        margin: 30px -10px 0;
+    }
+
+    .cm-cards-wrapper .cm-card{
+        width: calc(50% - 20px) !important;
+    }
+
     .seller-area-calender .seller-calender, .enquiries-wrapper .en-calender-wrapper .calender-wrapper{
         width: 100%;
     }
@@ -7426,6 +8285,105 @@ header.seller-header.sticky{
 }
 
 @media screen and (max-width:767px){
+
+    .our-content .content-section p {
+        margin-top: 30px;
+    }
+
+    .our-content .content-section {
+        padding: 20px 0px 0 0;
+    }
+
+    .our-content .multi-heading .bold {
+        margin-left: 60px;
+    }
+
+    .our-content .multi-heading {
+        line-height: 75px;
+    }
+
+    .our-background .mova-container {
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+
+    .our-content .img-section .journ-2{
+        margin-right: 30px;
+    }
+
+    .journey-cards .journey-card{
+        width: calc(100% - 28px);
+    }
+
+    .forsale-chat-section .container {
+        padding-top: 125px;
+        padding-bottom: 20px;
+    }
+
+    .forsale-chat-wrapper .search-wrapper .form-search input[type='search']{
+        padding: 20px 0 18px;
+        font-size: 20px;
+    }
+
+    .forsale-chat-wrapper .search-wrapper .chat-wrapper p{
+        font-size: 18px;
+    }
+
+    .forsale-chat-wrapper .search-wrapper .form-search .search-feild {
+        padding: 0 30px;
+    }
+
+    .forsale-chat-wrapper .search-wrapper .chat-wrapper {
+        margin-top: 20px;
+        padding: 30px 25px 30px;
+    }
+
+    .forsale-chat-wrapper .search-wrapper .form-search input[type='submit']{
+        background-size: 20px;
+    }
+
+    .forsale-chat-wrapper .form-nav{
+        padding: 0 30px;
+    }
+    
+    .forsale-chat-section .chat-heading h1{
+        font-size: 40px;
+        line-height: 46px;
+    }
+
+    .multi-heading {
+        font-size: 70px;
+        line-height: 80px;
+    }
+
+    .why-choose-mova .mova-container {
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+
+    .list-property .mova-container {
+        padding-bottom: 50px;
+        padding-top: 50px;
+    }
+
+    .start-listing-section .mova-container{
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+
+    .start-listing-section .listing-detail {
+        margin-top: 30px;
+    }
+
+    .start-listing-section .listing-detail .description{
+        margin-left: 0;
+    }
+
+    /*redesign seller landing*/
+
+    .cm-cards-wrapper .cm-card{
+        width: calc(100% - 20px) !important;
+    }
 
     .saved-searches-wrapper .properties-cards .prop-card .prop-card-content{
         padding: 15px 60px 15px 15px;
@@ -8006,6 +8964,99 @@ header.seller-header.sticky{
 }
 
 @media screen and (max-width:600px){
+
+    .journey-cards .journey-card{
+        padding: 15px 20px 15px;
+        margin: 0 14px 15px;
+    }
+
+    .journey-cards .journey-card h4{
+        font-size: 24px;
+    }
+    .journey-cards .journey-card p{
+        font-size: 16px;
+        line-height: 24px;
+        margin-top: 0px;
+    }
+
+    .corporate-hero  .experience .hero-description{
+        margin-top: 20px !important;
+    }
+
+    .corporate-hero {
+        background-position: top 26% right -80px;
+    }
+
+    .forsale-chat-wrapper .search-wrapper .form-search input[type='search']{
+        margin-left: 15px;
+    }
+
+    .forsale-chat-wrapper .search-wrapper .form-search .search-feild {
+        padding: 0 15px;
+    }
+
+    .forsale-chat-wrapper .search-wrapper .form-search .search-feild .search-wrap img {
+        max-width: 40px;
+    }
+
+    .forsale-chat-wrapper .search-wrapper .chat-wrapper{
+        max-height: 450px;
+    }
+
+    .forsale-chat-wrapper .search-wrapper .chat-wrapper .user-img {
+        min-width: 50px;
+        height: 50px;
+    }
+
+    .forsale-chat-wrapper .search-wrapper .chat-wrapper .my-msg,
+    .forsale-chat-wrapper .search-wrapper .chat-wrapper .your-msg{
+        margin-bottom: 40px;
+    }
+
+    .forsale-chat-wrapper .search-wrapper .chat-wrapper p{
+        box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.25);
+        font-size: 16px;
+        padding: 8px 12px;
+    }
+
+    .forsale-chat-wrapper .search-wrapper .chat-wrapper {
+        padding: 20px 10px 20px;
+    }
+
+    .seller-list-section .mova-container{
+        padding: 100px 15px 40px 15px;
+    }
+
+    .seller-list-section .experience .exp-img form{
+        margin-right: 0;
+        padding: 30px 25px 30px;
+    }
+
+    .seller-list-section .experience .exp-img{
+        padding: 0 15px;
+    }
+
+    .seller-list-section .experience .hero-description{
+        margin-top: 250px;
+    }
+
+    .multi-heading {
+        font-size: 50px;
+        line-height: 60px;
+    }
+
+    .start-listing-section .listing-detail .description p{
+        font-size: 16px;
+        line-height: 28px;
+    }
+
+    .start-listing-section .listing-detail {
+        margin-top: 20px;
+    }
+
+    .start-listing-section .listing-detail .description .btn{
+        margin-top: 10px;
+    }
 
     .overview-filtration .date-filtration{
         flex-wrap: wrap;
@@ -8631,6 +9682,33 @@ header.seller-header.sticky{
 
 @media screen and (max-width:530px){
 
+    .our-content .img-section .journ-1 {
+        min-height: 350px;
+    }
+
+    .our-content .img-section .journ-2{
+        min-height: 350px;
+        margin-top: -200px;
+    }
+
+    .forsale-chat-wrapper .form-nav a:first-child{
+        padding: 9px 15px 7px;
+    }
+
+    .forsale-chat-wrapper .form-nav a{
+        padding: 4px 20px;
+    }
+
+    .seller-list-section .experience .exp-content .multi-heading{
+        font-size: 80px;
+        line-height: 80px;
+    }
+
+    .seller-list-section .experience .exp-content .multi-heading .medium, .seller-list-section .experience .exp-content .multi-heading .light {
+        font-size: 20px;
+        line-height: 26px;
+    }
+
     .properties-cards .prop-card .prop-card-content .right-arrow{
         transform: rotate(90deg);
     }
@@ -8727,6 +9805,171 @@ header.seller-header.sticky{
 }
 
 @media screen and (max-width:440px){
+
+    .our-content .content-section p {
+        font-size: 18px;
+        line-height: 28px;
+        margin-top: 20px;
+    }
+
+    .journey-cards {
+        margin: 30px -14px 0;
+    }
+
+    .our-content .content-section p span {
+        margin-top: 15px;
+    }
+
+    .our-content .img-section .journ-1 {
+        min-height: 300px;
+    }
+
+    .our-content .img-section .journ-2 {
+        min-height: 270px;
+        margin-top: -170px;
+    }
+
+    .our-content .multi-heading {
+        line-height: 45px;
+    }
+
+    .our-content .multi-heading .bold {
+        margin-left: 15px;
+    }
+
+    .forsale-chat-wrapper .search-wrapper .form-search input[type='search'] {
+        font-size: 18px;
+        padding: 16px 0 14px;
+    }
+
+    .forsale-chat-wrapper .form-nav a:first-child{
+        font-size: 14px;
+    }
+
+    .forsale-chat-wrapper .form-nav a {
+        padding: 4px 14px;
+    }
+
+    .forsale-chat-wrapper .form-nav a:first-child {
+        padding: 9px 10px 7px;
+    }
+
+    .forsale-chat-wrapper .form-nav {
+        padding: 0 25px;
+    }
+
+    .forsale-chat-wrapper .form-nav a{
+        font-size: 14px;
+    }
+
+    .forsale-chat-wrapper .search-wrapper .chat-wrapper{
+        max-height: 400px;
+    }
+
+    .forsale-chat-section .chat-heading h1 {
+        font-size: 32px;
+        line-height: 38px;
+    }
+
+    .forsale-chat-wrapper .ai-search {
+        top: -60px;
+        font-size: 18px;
+        line-height: 18px;
+    }
+
+    .forsale-chat-section .chat-heading h3{
+        font-size: 24px;
+    }
+
+    .forsale-chat-wrapper .search-wrapper .chat-wrapper .user-img {
+        min-width: 40px;
+        height: 40px;
+    }
+
+    .forsale-chat-wrapper .search-wrapper .chat-wrapper .my-msg, .forsale-chat-wrapper .search-wrapper .chat-wrapper .your-msg {
+        margin-bottom: 25px;
+    }
+
+    .forsale-chat-wrapper .search-wrapper .chat-wrapper p{
+        font-size: 14px;
+        line-height: 20px;
+    }
+
+    .forsale-chat-wrapper .search-wrapper .chat-wrapper .your-msg p {
+        margin-left: 10px;
+    }
+
+    .forsale-chat-wrapper .search-wrapper .chat-wrapper .my-msg p {
+        margin-right: 10px;
+    }
+
+    .seller-list-section .experience .exp-img form input[type='text'], .seller-list-section .experience .exp-img form input[type='email'], .seller-list-section .experience .exp-img form input[type='tel'], .seller-list-section .experience .exp-img form select {
+        padding: 10px 15px;
+    }
+
+    .seller-list-section .experience .exp-img form select{
+        background-position: top 50% right 15px;
+    }
+
+    .seller-list-section .experience .exp-img {
+        height: 370px;
+    }
+
+    .seller-list-section .experience .hero-description {
+        margin-top: 350px;
+    }
+
+    .seller-list-section .experience .exp-content .multi-heading {
+        font-size: 60px;
+        line-height: 60px;
+    }
+
+    .seller-list-section .experience .exp-content .multi-heading .bold {
+        margin-left: 70px;
+    }
+
+    .seller-list-section .experience .exp-content .multi-heading .medium, .seller-list-section .experience .exp-content .multi-heading .light {
+        font-size: 18px;
+        line-height: 22px;
+        margin-left: 72px;
+    }
+
+    .multi-heading {
+        font-size: 40px;
+        line-height: 50px;
+    }
+
+    .seller-list-section .experience .hero-description .des p {
+        font-size: 18px;
+        line-height: 32px;
+    }
+
+    .seller-list-section .experience .hero-description .des p > span{
+        margin-bottom: 15px;
+    }
+
+    .seller-list-section .experience .btn{
+        margin-top: 15px;
+    }
+
+    .cm-card .card-img{
+        width: 50px;
+        height: 50px;
+    }
+
+    .cm-card .card-title{
+        font-size: 24px;
+        line-height: 38px;
+    }
+
+    .cm-card .card-des{
+        font-size: 16px;
+        line-height: 24px;
+    }
+
+    .cm-cards-wrapper .cm-card {
+        padding: 20px 20px 10px;
+    }
 
     .seller-area-calender .ov-cards .valuation-card .content{
         margin-left: 0;
